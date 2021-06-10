@@ -1,0 +1,22 @@
+const colors = {
+  white: '#FFFFFF',
+  black: '#000000',
+  lightBlueBg: '#8388C6',
+  primaryPurple: '#5B61B9',
+  drakPurple: '#4B369D',
+  secondaryButton: '#E5E9F1',
+  lightCardBg: '#F7F9FB',
+  readMessage: '#696969',
+  relationPillBg: '#00B4FD',
+  langPillBg: '#868ACB',
+  tabNonActiveIcon: '#989FBD',
+  inputBorder: '#EFEFEF',
+  countBg: '#FFA6AC',
+  recorderBg: '#A7ADFF',
+  pausePlayRed: '#F85673',
+  gray: '#828282',
+  mountainMeadowGreen: '#0FB377',
+  transparentBlueBg: '#8589c71f',
+  lightBlackTransparent: '#00000099',
+};
+export default colors;
