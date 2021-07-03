@@ -1,14 +1,15 @@
-import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
-import {createDrawerNavigator} from '@react-navigation/drawer';
-import * as NavConst from '@app/navigation/navigation.const';
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import * as NavConst from "@app/navigation/navigation.const";
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
 
-const AppStack = () => {
+export const AppStack = () => {
   return (
     <Stack.Navigator
-      screenOptions={{headerShown: false, gestureEnabled: false}}>
+      screenOptions={{ headerShown: false, gestureEnabled: false }}
+    >
       {/* After login screens will comes here */}
     </Stack.Navigator>
   );
