@@ -32,6 +32,7 @@ java_pid45014.hprof
 
 # node.js
 #
+.docz/
 node_modules/
 npm-debug.log
 yarn-error.log
